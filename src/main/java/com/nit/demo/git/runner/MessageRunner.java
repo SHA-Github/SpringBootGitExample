@@ -9,6 +9,8 @@ public class MessageRunner implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.out.println("Welcome to Spring Boot Runner");
 		System.out.println("Welcome to Spring Boot Git Demo");
+		int a=10;
+		System.out.println("a="+a);
 	}
 
 }
